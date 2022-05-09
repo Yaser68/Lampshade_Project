@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U8edaiGJxMuH9rUUc5GvdkbL3CseTC1keIvU9pX4zRcpj377776f/4JmgrU7jEEwxhVNO7mLq2Rm3vv0O4kamA==",
+  "success": true,
+  "projectFilePath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\y.m\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

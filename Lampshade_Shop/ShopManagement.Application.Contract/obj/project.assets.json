@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "JetBrains.Annotations/2022.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
+      "0_Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "compile": {
+          "bin/placeholder/0_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/0_Framework.dll": {}
+        }
+      },
+      "ShopManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JetBrains.Annotations/2022.1.0": {
+      "sha512": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "0_Framework/1.0.0": {
+      "type": "project",
+      "path": "../0_Framework/0_Framework.csproj",
+      "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "ShopManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Domain/ShopManagement.Domain.csproj",
+      "msbuildProject": "../ShopManagement.Domain/ShopManagement.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "0_Framework >= 1.0.0",
+      "ShopManagement.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\y.m\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
+      "projectName": "ShopManagement.Application.Contract",
+      "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
+      "packagesPath": "C:\\Users\\y.m\\.nuget\\packages\\",
+      "outputPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Application.Contract\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\y.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj": {
+              "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj"
+            },
+            "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
