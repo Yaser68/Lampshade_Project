@@ -23,20 +23,6 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
-      },
-      "ShopManagement.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "0_Framework": "1.0.0",
-          "JetBrains.Annotations": "2022.1.0"
-        },
-        "compile": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        }
       }
     }
   },
@@ -67,17 +53,11 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
-    },
-    "ShopManagement.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ShopManagement.Domain/ShopManagement.Domain.csproj",
-      "msbuildProject": "../ShopManagement.Domain/ShopManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Framework >= 1.0.0",
-      "ShopManagement.Domain >= 1.0.0"
+      "0_Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -109,9 +89,6 @@
           "projectReferences": {
             "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj": {
               "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj"
-            },
-            "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             }
           }
         }

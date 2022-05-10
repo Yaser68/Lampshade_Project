@@ -1,0 +1,76 @@
+﻿using _0_Framework.Application;
+using ShopManagement.Application.Contract;
+using ShopManagement.Domain.ProductCategoryAgg;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShopManagement.Application
+{
+    internal class ProductCategoryApplication : IProductCategoryApplication
+    {
+
+        private readonly IProductCategoryRepository _productCategoryRepository;
+
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        {
+            _productCategoryRepository = productCategoryRepository;
+        }
+
+
+
+
+        public OperationResult Create(CreateProductCategory command)
+        {
+            var operation=new OperationResult();
+
+            if (_productCategoryRepository.Exists(x=> x.Name==command.Name))
+                return operation.Failed("گروه محصول با این نام قبلا ثبت شده است");
+            
+
+            var slug=command.Slug.Slugify();
+            var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
+                command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
+
+            _productCategoryRepository.Create(productCategory);
+            _productCategoryRepository.SaveChanges();
+
+            return operation.Succedded();
+
+
+        }
+
+        public OperationResult Edit(EditProductCategory command)
+        {
+            var operation=new OperationResult();
+            var product = _productCategoryRepository.Get(command.Id);
+            if (product == null)
+                return operation.Failed("گروه محصولی با این مشخصات وجود ندارد");
+
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id!=command.Id))
+                return operation.Failed("گروه محصول با این نام قبلا ثبت شده است");
+
+
+            var slug = command.Slug.Slugify();
+            product.Edit(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
+                command.Keywords, command.MetaDescription, slug);
+
+            _productCategoryRepository.SaveChanges();
+            return operation.Succedded();
+
+                
+        }
+
+        public EditProductCategory GetDetails(long id)
+        {
+            return _productCategoryRepository.GetDetails(id);
+        }
+
+        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
+        {
+            return _productCategoryRepository.Search(searchModel);
+        }
+    }
+}
