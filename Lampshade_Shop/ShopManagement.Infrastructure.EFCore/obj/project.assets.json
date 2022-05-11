@@ -1533,7 +1533,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "JetBrains.Annotations": "2022.1.0"
+          "JetBrains.Annotations": "2022.1.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
           "bin/placeholder/0_Framework.dll": {}
