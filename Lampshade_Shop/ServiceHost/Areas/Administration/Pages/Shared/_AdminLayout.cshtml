@@ -6,12 +6,13 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
 
-        <link rel="shortcut icon" href="images/favicon_1.ico">
+        <link rel="shortcut icon" href="~/AdminTheme/assets/images/favicon_1.ico">
 
         <title>@ViewData["Title"] | LampShade Shop</title>
 
         <!-- Base Css Files -->
         <link href="~/AdminTheme/assets/css/bootstrap.min.css" rel="stylesheet" />
+        
 
         <!-- Font Icons -->
         <link href="~/AdminTheme/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -384,6 +385,9 @@
 
         <!-- Todo -->
         <script src="~/AdminTheme/assets/js/jquery.todo.js"></script>
+
+        @RenderSection("Scripts", false) 
+
 
         <!-- <script type="text/javascript"> -->
             <!-- /* ============================================== -->

@@ -8,6 +8,6 @@ namespace ShopManagement.Application.Contract
         public string Picture { get; set; }
 
         public long ProductsCount { get; set; }
-
+       
     }
 }

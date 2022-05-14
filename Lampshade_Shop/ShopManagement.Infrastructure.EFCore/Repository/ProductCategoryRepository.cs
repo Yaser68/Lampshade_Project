@@ -52,8 +52,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name=x.Name,
                 Picture=x.Picture,
                 CreationDate = x.CreationDate
+               
             });
-
+             
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
