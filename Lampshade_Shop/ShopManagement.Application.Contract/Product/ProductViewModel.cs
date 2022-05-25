@@ -1,4 +1,7 @@
-﻿namespace ShopManagement.Application.Contract.Product
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace ShopManagement.Application.Contract.Product
 {
     public class ProductViewModel
     {
@@ -7,6 +10,7 @@
         public string Code { get; set; }
         public double UnitPrice { get; set; }
         public string Picture { get; set; }
+        public DateTime CreationDate { get; set; }
         public string Category { get; set; }
         public long CategoryId { get; set; }
     }

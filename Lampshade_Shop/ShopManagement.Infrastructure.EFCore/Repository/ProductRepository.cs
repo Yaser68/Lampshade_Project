@@ -45,17 +45,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)
         {
-            var query = _context.products.Include(x=>x.Category).Select(x => new ProductViewModel
+            var query = _context.products.Include(x => x.Category).Select(x => new ProductViewModel
             {
                 Id = x.Id,
                 Name = x.Name,
                 Picture = x.Picture,
                 Code = x.Code,
-                UnitPrice=x.UnitPrice,
-                Category=x.Category.Name,
-                CategoryId=x.CategoryId
+                UnitPrice = x.UnitPrice,
+                CreationDate = x.CreationDate,
+                Category = x.Category.Name,
+                CategoryId = x.CategoryId
 
-            });
+            }) ;
 
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

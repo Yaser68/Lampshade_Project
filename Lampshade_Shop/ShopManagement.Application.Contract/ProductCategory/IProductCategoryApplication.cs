@@ -13,7 +13,7 @@ namespace ShopManagement.Application.Contract
 
         EditProductCategory GetDetails(long id);
 
-        
+        List<ProductCategoryViewModel> GetProductCategories();
 
     }
 }
