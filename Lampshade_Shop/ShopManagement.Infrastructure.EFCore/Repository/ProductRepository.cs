@@ -27,6 +27,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id=x.Id,
                 Name=x.Name,
                 Code=x.Code,
+                CategoryId=x.CategoryId,
                 ShortDescription=x.ShortDescription,
                 Slug=x.Slug,
                 Description=x.Description,

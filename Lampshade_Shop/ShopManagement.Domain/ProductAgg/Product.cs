@@ -26,7 +26,7 @@ namespace ShopManagement.Domain.ProductAgg
         public Product(string name,
             string code, double unitPrice, string shortDescription, string description, 
             string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
-            string metaDescription)
+            string metaDescription,long categoryId)
         {
             this.Name = name;
             Code = code;
@@ -40,13 +40,14 @@ namespace ShopManagement.Domain.ProductAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
             IsInStock = true;
+            CategoryId = categoryId;
         }
 
 
         public void Edit(string name,
          string code, double unitPrice, string shortDescription, string description,
          string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
-         string metaDescription)
+         string metaDescription, long categoryId)
         {
             this.Name = name;
             Code = code;
@@ -59,7 +60,8 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            
+            CategoryId = categoryId;
+
 
         }
 

@@ -15,6 +15,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
 
+      
         public List<Product> Products { get; private set; }
 
 
