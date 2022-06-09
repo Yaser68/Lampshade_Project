@@ -88,7 +88,7 @@ namespace ShopManagement.Application
             if (product == null)
                 return operation.Failed(DefultMessage.NotFoundMessage);
 
-            product.InStock();
+            product.NotInStock();
             _productRepository.SaveChanges();
             return operation.Succedded();
         }

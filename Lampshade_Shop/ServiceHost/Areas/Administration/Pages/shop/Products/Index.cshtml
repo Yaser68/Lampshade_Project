@@ -1,4 +1,4 @@
-﻿@page
+﻿@page 
 @model ServiceHost.Areas.Administration.Pages.shop.Products.IndexModel
 @{
 }
@@ -68,6 +68,8 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه محصول</th>
+                                    <th>قیمت</th>
+                                    <th>موجود در انبار</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -83,12 +85,44 @@
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.Category</td>
+                                        <td>@item.UnitPrice</td>
+
+                                        <td class="text-center">
+                                            @if(item.IsInStock)
+                                            {
+                                                <i class="fa fa-check fa-2x text-success"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa fa-remove fa-2x text-danger"></i>
+                                            }
+
+
+                                        </td>
+
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5" 
+                                            <a class="btn btn-warning waves-effect waves-light m-b-5" 
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
+
+                                               @if(item.IsInStock)
+                                            {
+                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
+                                                 class="btn btn-danger waves-effect waves-light m-b-5">اتمام موجودی</a>
+                                            }
+                                            else
+                                            {
+                                                 <a asp-page="./Index" asp-page-handler="InStock" asp-route-id="@item.Id"
+                                                 class="btn btn-success waves-effect waves-light m-b-5">موجود شد</a>
+                                            }
+
+
+                                            
+                                       
+                                            
+                                        
                                         </td>
                                     </tr>
                                 }

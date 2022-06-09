@@ -13,5 +13,7 @@ namespace ShopManagement.Application.Contract.Product
         public DateTime CreationDate { get; set; }
         public string Category { get; set; }
         public long CategoryId { get; set; }
+
+        public bool IsInStock { get; set; }
     }
 }
