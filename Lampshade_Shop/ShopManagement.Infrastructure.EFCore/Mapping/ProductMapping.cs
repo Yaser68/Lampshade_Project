@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.EFCore.Mapping
 {
-    public class ProductMapping : IEntityTypeConfiguration<Product>
+    public class ProductMapping : IEntityTypeConfiguration<ProductViewModel>
     {
-        public void Configure(EntityTypeBuilder<Product> builder)
+        public void Configure(EntityTypeBuilder<ProductViewModel> builder)
         {
             builder.ToTable("Products");
             builder.HasKey(x => x.Id);
@@ -28,6 +28,8 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
 
 
             builder.HasOne(x=>x.Category).WithMany(x=>x.Products).HasForeignKey(x=>x.CategoryId);
+
+            builder.HasMany(x => x.ProductPictures).WithOne(x => x.Product).HasForeignKey(x => x.ProductId);
 
 
         }

@@ -16,12 +16,12 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string Slug { get; private set; }
 
       
-        public List<Product> Products { get; private set; }
+        public List<ProductViewModel> Products { get; private set; }
 
 
         public ProductCategory()
         {
-            Products = new List<Product>();
+            Products = new List<ProductViewModel>();
         }
 
 

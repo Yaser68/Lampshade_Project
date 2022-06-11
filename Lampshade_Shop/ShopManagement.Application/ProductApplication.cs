@@ -30,7 +30,7 @@ namespace ShopManagement.Application
             var slug = command.Slug.Slugify();
             var product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
-                slug, command.Keywords, command.MetaDescription,command.CategoryId
+                slug, command.Keywords, command.MetaDescription, command.CategoryId
                 );
             _productRepository.Create(product);
             _productRepository.SaveChanges();
@@ -67,6 +67,11 @@ namespace ShopManagement.Application
           return  _productRepository.GetDetails(id);
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
+
         public OperationResult InStock(long id)
         {
             var operation = new OperationResult();
@@ -93,7 +98,7 @@ namespace ShopManagement.Application
             return operation.Succedded();
         }
 
-        public List<ProductViewModel> Search(ProductSearchModel command)
+        public List<Contract.Product.ProductViewModel> Search(ProductSearchModel command)
         {
             return _productRepository.Search(command); 
 
