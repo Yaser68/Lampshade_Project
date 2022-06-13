@@ -1,11 +1,11 @@
 ﻿@page 
-@model ServiceHost.Areas.Administration.Pages.shop.Products.IndexModel
+@model ServiceHost.Areas.Administration.Pages.shop.ProductPictures.IndexModel
 @{
 }
 
 @{
     Layout = "Shared/_AdminLayout";
-    ViewData["title"] = "مدیریت محصولات";
+    ViewData["title"] = "مدیریت عکس محصولات";
 }
 
 <div class="content-page">
@@ -15,7 +15,7 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد محصول جدید</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد عکس محصول جدید</a>
         </p>
     </div>
 </div>
@@ -24,22 +24,15 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">جستجو در محصولات</h3>
+                <h3 class="panel-title">جستجو در عکس محصولات</h3>
             </div>
             <div class="panel-body">
                 <form class="form-inline" role="form" method="get">
-                    <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.Name" ></label>
-                        <input class="form-control" asp-for="SearchModel.Name"  placeholder="نام محصول">
-                    </div>
+                   
                      <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.Code" ></label>
-                        <input class="form-control" asp-for="SearchModel.Code"  placeholder="کد محصول">
-                    </div>
-                     <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.CategoryId" ></label>
-                        <select class="form-control" asp-for="SearchModel.CategoryId" asp-items="Model.productCategories" >
-                            <option value="0">گروه محصولی ...</option>
+                        <label class="sr-only" asp-for="SearchModel.ProductId"></label>
+                        <select class="form-control" asp-for="SearchModel.ProductId" asp-items="Model.Products" >
+                            <option value="0"> محصولات ...</option>
 
                         </select> 
                     </div>
@@ -55,7 +48,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست محصول</h3>
+                <h3 class="panel-title">لیست عکس محصول</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -65,30 +58,24 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>عکس</th>
-                                    <th>نام</th>
-                                    <th>کد</th>
-                                    <th>گروه محصول</th>
-                                    <th>قیمت</th>
+                                    <th> نام محصول</th> 
                                     <th>موجود در انبار</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
                             <tbody>
-                               @foreach (var item in Model.products)
+                               @foreach (var item in Model.productPictures)
                                 {
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
                                             <img src="@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
-                                        <td>@item.Name</td>
-                                        <td>@item.Code</td>
-                                        <td>@item.Category</td>
-                                        <td>@item.UnitPrice</td>
-
+                                        <td>@item.Product</td>
+                                        
                                         <td class="text-center">
-                                            @if(item.IsInStock)
+                                            @if(!item.IsRemoved)
                                             {
                                                 <i class="fa fa-check fa-2x text-success"></i>
                                             }
@@ -107,15 +94,15 @@
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
 
-                                               @if(item.IsInStock)
+                                               @if(!item.IsRemoved)
                                             {
-                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
-                                                 class="btn btn-danger waves-effect waves-light m-b-5">اتمام موجودی</a>
+                                                <a asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
+                                                 class="btn btn-danger waves-effect waves-light m-b-5">حذف عکس</a>
                                             }
                                             else
                                             {
-                                                 <a asp-page="./Index" asp-page-handler="InStock" asp-route-id="@item.Id"
-                                                 class="btn btn-success waves-effect waves-light m-b-5">موجود شد</a>
+                                                 <a asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
+                                                 class="btn btn-success waves-effect waves-light m-b-5">فعال سازی مجدد</a>
                                             }
 
 

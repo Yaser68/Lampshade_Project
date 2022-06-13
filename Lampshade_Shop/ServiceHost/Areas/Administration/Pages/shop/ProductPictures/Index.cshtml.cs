@@ -15,7 +15,7 @@ namespace ServiceHost.Areas.Administration.Pages.shop.ProductPictures
 
         public List<ProductPictureViewModel> productPictures;
 
-        public SelectList productpictures;
+        public SelectList Products;
 
         private readonly IProductApplication _productApplication;
         private readonly IProductPictureApplication _productPictureApplication;
@@ -31,7 +31,7 @@ namespace ServiceHost.Areas.Administration.Pages.shop.ProductPictures
         {
 
             productPictures = _productPictureApplication.Search(searchModel);
-            productpictures = new SelectList(_productApplication.GetProducts(), "Id", "Name");
+            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
         }
 
         public IActionResult OnGetCreate()

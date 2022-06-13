@@ -9,6 +9,7 @@ namespace ShopManagement.Application.Contract.ProductPicture
 {
     public class CreateProductPicture
     {
+        public long Id { get; set; }
         public long ProductId { get; set; }
         public string Picture { get; set; }
         public string PictureAlt { get; set; }

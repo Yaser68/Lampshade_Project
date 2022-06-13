@@ -23,7 +23,7 @@ namespace ShopManagement.Application
         {
             var Operation = new OperationResult();
 
-            if (_productPictureRepository.Exists(x => x.ProductId == command.ProductId))
+            if (_productPictureRepository.Exists(x => x.Id == command.Id))
                 return Operation.Failed(DefultMessage.DuplicatedMessage);
 
             var productPicture = new ProductPicture(command.ProductId, command.Picture, command.PictureAlt,
@@ -44,7 +44,7 @@ namespace ShopManagement.Application
             if(productPicture == null)
                 return OperationResult.Failed(DefultMessage.NotFoundMessage);
 
-            if (_productPictureRepository.Exists(x => x.ProductId == command.ProductId && x.Id != command.Id))
+            if (_productPictureRepository.Exists( x =>x.Picture==command.Picture && x.Id != command.Id))
                 return OperationResult.Failed(DefultMessage.DuplicatedMessage);
 
             productPicture.Edit(command.ProductId, command.Picture, command.PictureAlt, command.PictureTitle);
