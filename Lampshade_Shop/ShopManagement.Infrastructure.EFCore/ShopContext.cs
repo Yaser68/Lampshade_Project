@@ -3,6 +3,7 @@ using ShopManagement.Application.Contract.Product;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore.Mapping;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace ShopManagement.Infrastructure.EFCore
 {
     public class ShopContext : DbContext
     {
+        public DbSet<Slide> slides { get; set; }
         public DbSet<ProductPicture> productPictures { get; set; }
         public DbSet<Product> products { get; set; }
         public DbSet<ProductCategory> productCategories { get; set; }

@@ -169,3 +169,6 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\A
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\ProductPictures\Create.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\ProductPictures\Edit.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\ProductPictures\Index.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Create.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Edit.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Index.cshtml.g.cs
