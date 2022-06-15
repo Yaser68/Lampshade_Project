@@ -24,3 +24,5 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\obj\Debug\net
 D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
 D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb

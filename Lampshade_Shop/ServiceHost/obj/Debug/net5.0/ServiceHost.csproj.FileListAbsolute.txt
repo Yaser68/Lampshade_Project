@@ -172,3 +172,6 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\A
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Create.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Edit.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\shop\Slides\Index.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
