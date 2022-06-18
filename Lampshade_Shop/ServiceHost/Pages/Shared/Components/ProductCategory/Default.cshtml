@@ -1,0 +1,75 @@
+﻿@using _01_LampshadeQuery.Contracts.ProductCategory
+@model List<ProductCategoryQueryModel>
+
+
+<div class="tab-content">
+    <div class="container">
+        <div class="section-title-wrapper text-center section-space--half">
+                        <h2 class="section-title">آخرین دسته بندی ها</h2>
+                        
+                    </div>
+                            <div class="tab-pane fade show active" id="product-series-1" role="tabpanel"
+                                aria-labelledby="product-tab-1">
+                                <!--=======  single row slider wrapper  =======-->
+                                <div class="single-row-slider-wrapper">
+                                    <div class="ht-slick-slider" data-slick-setting='{
+                                    "slidesToShow": 4,
+                                    "slidesToScroll": 1,
+                                    "arrows": true,
+                                    "autoplay": false,
+                                    "autoplaySpeed": 5000,
+                                    "speed": 1000,
+                                    "infinite": true,
+                                    "rtl": true,
+                                    "prevArrow": {"buttonClass": "slick-prev", "iconClass": "ion-chevron-left" },
+                                    "nextArrow": {"buttonClass": "slick-next", "iconClass": "ion-chevron-right" }
+                                }' data-slick-responsive='[
+                                    {"breakpoint":1501, "settings": {"slidesToShow": 4} },
+                                    {"breakpoint":1199, "settings": {"slidesToShow": 4, "arrows": false} },
+                                    {"breakpoint":991, "settings": {"slidesToShow": 3, "arrows": false} },
+                                    {"breakpoint":767, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":575, "settings": {"slidesToShow": 2, "arrows": false} },
+                                    {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false} }
+                                ]'>
+            
+ 
+                      @foreach (var Category in Model)
+                            {
+                             <div class="tab-slider-wrapper">
+                                <div class="col">
+                                     <div class="single-grid-product">
+                                         <div class="single-grid-product__image">
+                                            <a asp-page="/ProductCategory" asp-route-id="@Category.Slug">
+                                             <img  class="img-fluid" src="@Category.Picture" class="img-fluid" alt="@Category.PictureAlt" title="@Category.PictureTitle">
+                                            </a>
+                                    </div>
+                                    <div class="single-category-item__content">
+                                        <h3 class="title">@Category.Name</h3>
+                                        <a asp-page="/ProductCategory" asp-route-id="@Category.Slug"><i
+                                                class="ion-android-arrow-dropleft-circle"></i> مشاهده</a>
+                                    </div>
+                                    <div>
+                                        <input type="hidden" asp-for="@Category.Description" value="@Category.Description"/>
+                                    </div>
+                                      <div>
+                                        <input type="hidden" asp-for="@Category.Keywords" value="@Category.Keywords"/>
+                                    </div>
+                                      <div>
+                                        <input type="hidden" asp-for="@Category.MetaDescription" value="@Category.MetaDescription"/>
+                                    </div>
+
+
+                                </div>
+                              </div>
+                            </div> 
+                              <!--=======  End of single category item  =======-->
+                        }
+
+                                        
+
+                                    </div>
+                                </div>
+                                <!--=======  End of single row slider wrapper  =======-->
+                            </div>
+                        </div>
+                        </div>
