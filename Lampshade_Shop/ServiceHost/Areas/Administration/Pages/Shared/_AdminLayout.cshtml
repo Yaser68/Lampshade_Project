@@ -19,8 +19,14 @@
         <link href="~/AdminTheme/assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
         <link href="~/AdminTheme/assets/css/material-design-iconic-font.min.css" rel="stylesheet"/>
 
+        <!--  PERSIAN CALENDER -->
+        <link href="~/AdminTheme/assets/css/persian-datepicker.css" rel="stylesheet"/>
+
         <!-- animate css -->
         <link href="~/AdminTheme/assets/css/animate.css" rel="stylesheet" />
+       
+
+         <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
 
         <!-- Waves-effect -->
         <link href="~/AdminTheme/assets/css/waves-effect.css" rel="stylesheet"/>
@@ -191,6 +197,17 @@
                                 </ul>
                             </li>
 
+
+                            <li class="has_sub">
+                                <a class="waves-effect"><i class="md md-mail"></i><span> تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a asp-page="/Discounts/CustomerDiscounts/Index">تخفیف مشتریان</a></li>
+                                    <li><a  asp-page="/Shop/ProductCategories/Index">تخفیف همکاران</a></li>
+                                   
+
+                                </ul>
+                            </li>
+
                         </ul>
                         <div class="clearfix"></div>
                     </div>
@@ -268,6 +285,12 @@
         @RenderSection("Scripts", false) 
 
 
+        <!-- PERSIAN CALENDER -->
+        
+        <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
+        <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
+
+
         <!-- CUSTOM JS -->
         <script src="~/AdminTheme/assets/js/jquery.app.js"></script>
 
@@ -282,6 +305,17 @@
 
          <script src="~/AdminTheme/assets/js/site.js"></script>
 
+
+
+         <!-- PERSIAN CALENDER -->
+          <script >
+           $('.observer-example').persianDatepicker({
+    observer: true,
+    autoClose: true,
+    format: 'YYYY/MM/DD',
+    altField: '.observer-example-alt'
+});
+          </script>
 
         <!-- <script type="text/javascript"> -->
             <!-- /* ============================================== -->

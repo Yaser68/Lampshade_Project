@@ -1,5 +1,6 @@
 using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
+using DiscountManagement.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,7 @@ namespace ServiceHost
 
 
             ShopManagementBootstrapper.Configure(services, ConnectionString);
+            DiscountManagementBootstraper.Configure(services, ConnectionString);
 
 
           

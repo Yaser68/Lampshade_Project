@@ -176,3 +176,16 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\01_LampshadeQ
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.pdb
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategory\Default.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\CustomerDiscount.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\CustomerDiscount.Application.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\CustomerDiscount.Application.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\CustomerDiscount.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs
