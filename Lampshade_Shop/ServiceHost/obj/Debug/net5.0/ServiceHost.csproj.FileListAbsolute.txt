@@ -189,3 +189,13 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\DiscountManag
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.Mvc.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.Razor.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.Helpers.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.WebPages.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
