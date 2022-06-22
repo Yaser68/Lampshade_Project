@@ -183,6 +183,19 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
+      },
+      "Inventory.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Inventory.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.Application.Contract.dll": {}
+        }
       }
     }
   },
@@ -569,11 +582,17 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "Inventory.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.Application.Contract/Inventory.Application.Contract.csproj",
+      "msbuildProject": "../Inventory.Application.Contract/Inventory.Application.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Framework >= 1.0.0"
+      "0_Framework >= 1.0.0",
+      "Inventory.Application.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -605,6 +624,9 @@
           "projectReferences": {
             "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj": {
               "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj"
+            },
+            "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj": {
+              "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj"
             }
           }
         }

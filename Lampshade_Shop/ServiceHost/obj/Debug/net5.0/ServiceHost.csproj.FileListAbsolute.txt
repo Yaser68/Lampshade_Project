@@ -199,3 +199,13 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.We
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\System.Web.WebPages.dll
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\Inventory.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Configuration.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Configuration.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\Inventory.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
