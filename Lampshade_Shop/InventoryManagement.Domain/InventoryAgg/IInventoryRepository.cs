@@ -12,7 +12,7 @@ namespace InventoryManagement.Domain.InventoryAgg
     {
         EditInventory GetDetails(long id);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
-
+        List<InventoryOperationViewModel> Log(long inventoryId);
         Inventory GetInventoryBy(long productId);
     }
 }

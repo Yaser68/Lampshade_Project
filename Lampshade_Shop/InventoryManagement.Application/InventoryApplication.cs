@@ -69,6 +69,11 @@ namespace InventoryManagement.Application
             return operation.Succedded();
         }
 
+        public List<InventoryOperationViewModel> Log(long inventoryId)
+        {
+            return _inventoryRepository.Log(inventoryId);
+        }
+
         public OperationResult Reduce(ReduceInventory command)
         {
             var operation = new OperationResult();

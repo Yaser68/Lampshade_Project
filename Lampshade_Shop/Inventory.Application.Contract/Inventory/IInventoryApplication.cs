@@ -17,5 +17,7 @@ namespace Inventory.Application.Contract.Inventory
         EditInventory GetDetails(long id);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
 
+        List<InventoryOperationViewModel> Log(long inventoryId);
+
     }
 }

@@ -17,3 +17,5 @@ D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\obj\Debug\
 D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\obj\Debug\net5.0\refint\InventoryManagement.Application.dll
 D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
 D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb

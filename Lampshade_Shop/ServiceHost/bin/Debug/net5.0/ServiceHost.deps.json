@@ -34,6 +34,7 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "DiscountManagement.Configuration": "1.0.0",
+          "Inventory.Application.Contract": "1.0.0",
           "InventoryManagement.Configuration": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "ShopManagement.Configuration": "1.0.0",
@@ -1969,7 +1970,8 @@
       },
       "Inventory.Application.Contract/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
         },
         "runtime": {
           "Inventory.Application.Contract.dll": {}

@@ -209,3 +209,9 @@ D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryMana
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
 D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs

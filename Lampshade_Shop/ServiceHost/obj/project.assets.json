@@ -2181,7 +2181,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Inventory.Application.Contract.dll": {}
@@ -7642,6 +7643,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DiscountManagement.Configuration >= 1.0.0",
+      "Inventory.Application.Contract >= 1.0.0",
       "InventoryManagement.Configuration >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "ShopManagement.Configuration >= 1.0.0"
@@ -7676,6 +7678,9 @@
           "projectReferences": {
             "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
               "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+            },
+            "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj": {
+              "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj"
             },
             "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\InventoryManagement.Configuration\\InventoryManagement.Configuration.csproj": {
               "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\InventoryManagement.Configuration\\InventoryManagement.Configuration.csproj"

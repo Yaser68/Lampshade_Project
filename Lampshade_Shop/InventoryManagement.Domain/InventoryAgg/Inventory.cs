@@ -45,7 +45,7 @@ namespace InventoryManagement.Domain.InventoryAgg
 
         public void Reduce(long count,long operatorId,string description,long orderId)
         {
-            var currnetCount = CalculateCurrentCount() + count;
+            var currnetCount = CalculateCurrentCount() - count;
             var Operation = new InventoryOperation(false, count, operatorId, currnetCount, description, orderId, Id);
 
             Operations.Add(Operation);

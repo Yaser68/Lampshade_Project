@@ -188,13 +188,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Inventory.Application.Contract.dll": {}
         },
         "runtime": {
           "bin/placeholder/Inventory.Application.Contract.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Application.Contract.dll": {}
         }
       }
     }
@@ -587,6 +601,11 @@
       "type": "project",
       "path": "../Inventory.Application.Contract/Inventory.Application.Contract.csproj",
       "msbuildProject": "../Inventory.Application.Contract/Inventory.Application.Contract.csproj"
+    },
+    "ShopManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Application.Contract/ShopManagement.Application.Contract.csproj",
+      "msbuildProject": "../ShopManagement.Application.Contract/ShopManagement.Application.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {

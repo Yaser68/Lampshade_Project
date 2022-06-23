@@ -497,6 +497,9 @@
             "projectReferences": {
               "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
               }
             }
           }
@@ -839,6 +842,9 @@
             "projectReferences": {
               "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
                 "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+              },
+              "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj": {
+                "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\Inventory.Application.Contract\\Inventory.Application.Contract.csproj"
               },
               "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\InventoryManagement.Configuration\\InventoryManagement.Configuration.csproj": {
                 "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\InventoryManagement.Configuration\\InventoryManagement.Configuration.csproj"
