@@ -34,7 +34,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Picture=x.Picture,
                 PictureAlt=x.PictureAlt,
                 PictureTitle=x.PictureTitle,
-                UnitPrice=x.UnitPrice,
                 Keywords=x.Keywords,
                 MetaDescription=x.MetaDescription,
 
@@ -62,11 +61,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Picture = x.Picture,
                 Code = x.Code,
-                UnitPrice = x.UnitPrice,
                 CreationDate = x.CreationDate,
                 Category = x.Category.Name,
                 CategoryId = x.CategoryId,
-                IsInStock = x.IsInStock
+
 
             }) ;
 
