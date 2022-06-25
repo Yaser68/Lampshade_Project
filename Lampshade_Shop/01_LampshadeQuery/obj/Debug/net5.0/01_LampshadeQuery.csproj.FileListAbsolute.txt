@@ -19,3 +19,15 @@ D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\obj\Debug\net5.0\01_Lamp
 D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\obj\Debug\net5.0\refint\01_LampshadeQuery.dll
 D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
 D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\CustomerDiscount.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\Inventory.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\CustomerDiscount.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\Inventory.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
