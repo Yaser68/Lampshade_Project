@@ -2486,12 +2486,12 @@ select {
 }
 
     .product-countdown .single-countdown .single-countdown-time {
-        font-size: 14px;
+        font-size: 19px;
         display: block;
     }
 
     .product-countdown .single-countdown .single-countdown-text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 /* product widget */

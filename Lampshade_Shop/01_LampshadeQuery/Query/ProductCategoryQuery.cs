@@ -113,5 +113,56 @@ namespace _01_LampshadeQuery.Query
             }).ToList();
 
         }
+
+        public ProductCategoryQueryModel GetProductCategoriesWithProducts(string slug)
+        {
+            var discount = _discountContext.customerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+                 .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
+
+            var inventory = _inventoryContext.inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
+
+            var category = _shopContext.productCategories.Include(x => x.Products).ThenInclude(x => x.Category).
+                Select(x => new ProductCategoryQueryModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Products = MapProducts(x.Products),
+                    Slug=x.Slug,
+                    Description=x.Description,
+                    MetaDescription=x.MetaDescription,
+                    Keywords=x.Keywords
+                }).FirstOrDefault(x=>x.Slug==slug);
+
+           
+                foreach (var product in category.Products)
+                {
+                    var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
+
+                    if (productInventory != null)
+                    {
+                        var price = productInventory.UnitPrice;
+                        product.UnitPrice = price.ToMoney();
+                       
+                        var productDiscount = discount.FirstOrDefault(x => x.ProductId == product.Id);
+
+                        if (productDiscount != null)
+                        {
+                           var discountRate = productDiscount.DiscountRate;
+                           product.DiscountRate = discountRate.ToString();
+                           product.DiscountExpire = productDiscount.EndDate.ToDiscountFormat();
+                           product.DiscountFlag = discountRate > 0;
+                        
+                            var discountPrice = Math.Round((price * discountRate) / 100);
+                            product.UnitPriceWithDiscount = (price - discountPrice).ToMoney();
+                        }
+                    }
+
+
+
+                
+            }
+
+            return category;
+        }
     }
 }

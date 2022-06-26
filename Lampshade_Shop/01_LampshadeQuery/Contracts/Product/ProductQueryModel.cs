@@ -13,5 +13,7 @@
         public string Slug { get; set; }
         public bool DiscountFlag { get; set; }
         public string DiscountRate { get; set; }
+
+        public string DiscountExpire { get; set; }
     }
 }
