@@ -38,9 +38,9 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<ISlideQuery, SlideQuery>();
 
-            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            services.AddTransient<_01_LampshadeQuery.Contracts.ProductCategory.IProductCategoryQuery, ProductCategoryQuery>();
 
-            services.AddTransient<IProductQuery, ProductQuery>();
+            services.AddTransient<_01_LampshadeQuery.Contracts.Product.IProductQuery, ProductQuery>();
 
             services.AddDbContext<ShopContext>(Options => Options.UseSqlServer(connectionString));
         }

@@ -11,6 +11,7 @@
         public string UnitPriceWithDiscount { get; set; }
         public string Category { get; set; }
         public string Slug { get; set; }
+        public string ShortDescription { get; set; }
         public bool DiscountFlag { get; set; }
         public string DiscountRate { get; set; }
 

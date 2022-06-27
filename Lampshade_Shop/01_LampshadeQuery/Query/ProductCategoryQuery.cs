@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace _01_LampshadeQuery.Query
 {
-    public class ProductCategoryQuery : IProductCategoryQuery
+    public class ProductCategoryQuery : Contracts.ProductCategory.IProductCategoryQuery
     {
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;

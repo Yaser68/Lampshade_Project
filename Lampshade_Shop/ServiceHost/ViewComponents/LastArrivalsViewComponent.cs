@@ -6,9 +6,9 @@ namespace ServiceHost.ViewComponents
 {
     public class LastArrivalsViewComponent : ViewComponent
     {
-        private readonly IProductQuery _productQuery;
+        private readonly _01_LampshadeQuery.Contracts.Product.IProductQuery _productQuery;
 
-        public LastArrivalsViewComponent(IProductQuery productQuery)
+        public LastArrivalsViewComponent(_01_LampshadeQuery.Contracts.Product.IProductQuery productQuery)
         {
             _productQuery = productQuery;
         }
