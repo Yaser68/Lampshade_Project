@@ -982,6 +982,9 @@
               },
               "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              },
+              "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\atom\\Lampshade\\Code\\Lampshade_Shop\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }

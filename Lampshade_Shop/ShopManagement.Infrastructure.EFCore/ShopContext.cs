@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contract.Product;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -15,6 +16,7 @@ namespace ShopManagement.Infrastructure.EFCore
 {
     public class ShopContext : DbContext
     {
+        public DbSet<Comment> comments { get; set; }
         public DbSet<Slide> slides { get; set; }
         public DbSet<ProductPicture> productPictures { get; set; }
         public DbSet<Product> products { get; set; }

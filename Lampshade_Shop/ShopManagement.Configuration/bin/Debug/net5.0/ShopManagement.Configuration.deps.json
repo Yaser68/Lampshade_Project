@@ -1206,7 +1206,8 @@
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
           "ShopManagement.Application.Contract": "1.0.0",
-          "ShopManagement.Domain": "1.0.0"
+          "ShopManagement.Domain": "1.0.0",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Application.dll": {}

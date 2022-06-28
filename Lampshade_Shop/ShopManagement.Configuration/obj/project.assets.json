@@ -1705,7 +1705,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "ShopManagement.Application.Contract": "1.0.0",
-          "ShopManagement.Domain": "1.0.0"
+          "ShopManagement.Domain": "1.0.0",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShopManagement.Application.dll": {}
