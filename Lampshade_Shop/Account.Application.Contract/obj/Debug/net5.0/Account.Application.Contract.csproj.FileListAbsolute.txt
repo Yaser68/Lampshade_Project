@@ -1,0 +1,15 @@
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\bin\Debug\net5.0\Account.Application.Contract.deps.json
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\bin\Debug\net5.0\Account.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\bin\Debug\net5.0\Account.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.csproj.AssemblyReference.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.AssemblyInfoInputs.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.AssemblyInfo.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.csproj.CoreCompileInputs.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.csproj.CopyComplete
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\refint\Account.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\Account.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\Account.Application.Contract\obj\Debug\net5.0\ref\Account.Application.Contract.dll

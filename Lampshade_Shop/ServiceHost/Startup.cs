@@ -1,5 +1,7 @@
+using _0_Framework.Application;
 using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
+using AccountManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Configuration;
 using Microsoft.AspNetCore.Builder;
@@ -34,8 +36,9 @@ namespace ServiceHost
             ShopManagementBootstrapper.Configure(services, ConnectionString);
             DiscountManagementBootstraper.Configure(services, ConnectionString);
             InventoryManagementBootstraper.Configure(services,ConnectionString);
+            AccountManagementBootstrapper.Configure(services, ConnectionString);
 
-
+            services.AddSingleton<IPasswordHasher,PasswordHasher>();
           
 
             services.AddRazorPages();

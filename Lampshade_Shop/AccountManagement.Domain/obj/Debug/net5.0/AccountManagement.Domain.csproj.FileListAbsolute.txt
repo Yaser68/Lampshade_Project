@@ -1,0 +1,17 @@
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\Account.Application.Contract.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\bin\Debug\net5.0\Account.Application.Contract.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\refint\AccountManagement.Domain.dll
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
+D:\atom\Lampshade\Code\Lampshade_Shop\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll

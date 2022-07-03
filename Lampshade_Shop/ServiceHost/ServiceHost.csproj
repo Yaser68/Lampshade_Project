@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\Inventory.Application.Contract\Inventory.Application.Contract.csproj" />
     <ProjectReference Include="..\InventoryManagement.Configuration\InventoryManagement.Configuration.csproj" />

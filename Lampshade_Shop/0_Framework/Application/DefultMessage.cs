@@ -12,5 +12,7 @@ namespace _0_Framework.Application
         public const  string IsRequired = "این فیلد اجباری است";
         public const string DuplicatedMessage = "رکورد با این نام قبلا ثبت شده است. لطفا مجدد تلاش نمایید";
         public const string NotFoundMessage = "رکورد با این مشخصات وجود ندارد";
+
+        public static string NotMatchPassword = "رمز وارد شده با تکرار آن برابر نیست";
     }
 }

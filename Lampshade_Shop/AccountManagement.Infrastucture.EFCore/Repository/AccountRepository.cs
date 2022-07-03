@@ -43,11 +43,24 @@ namespace AccountManagement.Infrastucture.EFCore.Repository
             UserName=x.UserName,
             ProfilePhoto=x.ProfilePhoto,
             Mobile=x.Mobile,
+            
           
             }).AsNoTracking();
 
+            if(!string.IsNullOrWhiteSpace(searchModel.FullName))
+               query=query.Where(x =>x.FullName.Contains(searchModel.FullName) );
 
-           
+            if (!string.IsNullOrWhiteSpace(searchModel.UserName))
+                query = query.Where(x => x.UserName.Contains(searchModel.UserName));
+
+            if (!string.IsNullOrWhiteSpace(searchModel.Mobile))
+                query = query.Where(x => x.FullName.Contains(searchModel.Mobile));
+
+            if (searchModel.RollId > 0)
+                query = query.Where(x => x.RollId == searchModel.RollId);
+
+            return query.ToList();
+
         }
     }
 }
